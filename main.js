@@ -1,9 +1,9 @@
 var DEBUG = false;
-var SPEED = 470;
-var GRAVITY = 40;
-var FLAP = 620;
+var SPEED = 470; //Speed
+var GRAVITY = 40; //Vertical Speed
+var FLAP = 10;
 var SPAWN_RATE = 1 / 1.2;
-var OPENING = 700;
+var OPENING = 700; //Space prevents you from collusion 
 
 
 WebFontConfig = {
