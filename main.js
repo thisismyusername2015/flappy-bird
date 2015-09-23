@@ -3,7 +3,7 @@ var SPEED = 550;
 var GRAVITY = 40;
 var FLAP = 620;
 var SPAWN_RATE = 1 / 1.2;
-var OPENING = 476;
+var OPENING = 300;
 
 
 WebFontConfig = {
