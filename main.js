@@ -1,7 +1,7 @@
 var DEBUG = false;
 var SPEED = 470; //Speed
 var GRAVITY = 20; //Vertical Speed
-var FLAP = 10;
+var FLAP = 100;
 var SPAWN_RATE = 1 / 1.2;
 var OPENING = 600; //Space prevents you from collusion 
 
