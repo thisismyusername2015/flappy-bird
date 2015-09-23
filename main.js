@@ -1,9 +1,9 @@
 var DEBUG = false;
-var SPEED = 550;
+var SPEED = 470;
 var GRAVITY = 40;
 var FLAP = 620;
 var SPAWN_RATE = 1 / 1.2;
-var OPENING = 450;
+var OPENING = 570;
 
 
 WebFontConfig = {
@@ -186,7 +186,7 @@ function reset() {
     gameOver = false;
     score = 0;
     credits.renderable = true;
-    scoreText.setText("DON'T\nTOUCH\nMY\nBIRDIE");
+    scoreText.setText("FLAPPY\nBIRD");
     instText.setText("TOUCH TO FLAP\nBIRDIE WINGS");
     gameOverText.renderable = false;
     birdie.body.allowGravity = false;
